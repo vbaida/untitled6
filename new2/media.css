@@ -1,7 +1,7 @@
 @media screen and (max-width: 900px) {
 
     .border1 {
-        width: 0px;
+        width: 0;
         height: 0;
             }
     .col-xxl-5 {
@@ -57,7 +57,7 @@
         font-size: 18px;
         line-height: 40px;
         text-align: center;
-        letter-spacing: 2.42px;
+        letter-spacing: 2px;
         text-transform: uppercase;
         transform: rotate(0.02deg);
         margin-top: 303px;
@@ -68,9 +68,24 @@
     }
 .five_head {
     flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
 }
-.five_h {
-    margin-top: 200px;
+    .five_col41 img {
+        width: 33px;
+    }
+    .five_col41 {
+        width: 326px;
+    }
+    .five {
+        margin-top: 183px;
+    }
+    .five_colon {
+        flex-direction: column;
+            }
+.six_head {
+    width: 100%;
+    margin-left: 0;
 }
 
 }
