@@ -252,6 +252,7 @@
     margin-left: 320px;
     margin-top: 50px;
 }
+
 .bilder {
     font-weight: 500;
     font-size: 28px;
@@ -307,6 +308,7 @@
     display: flex;
     column-gap: 15px;
     justify-content: center;
+    margin-top: 30px;
 }
 .seven_group2 {
     display: flex;
@@ -327,4 +329,52 @@
 .seven_group3 button {
     margin-left: 4px;
 }
+.finish {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 336px;
+    margin-top: 68px;}
+.arrow {
+    width: 249px;
+    height: 54px;
+    background: #2E75FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+    cursor: pointer;
+}
+ .arrow h2 {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+ .arrow img {
+     width: 79px;
+      }
+ .finish1 h1 {
+     font-weight: bold;
+     font-size: 34px;
+     line-height: 43px;
+     letter-spacing: -0.4px;
+     color: #1652AC;
+ }
+ .finish2 p {
+     font-weight: normal;
+     font-size: 17px;
+     line-height: 32px;
+     letter-spacing: -0.4px;
+     color: #464C53;
+
+ }
+ .finish2 {
+     width: 420px;
+     height: 224px;
+ }
+ .finish_logo a img {
+     width: 196px;
+     height: 73px;
+ }
 
