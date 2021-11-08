@@ -333,8 +333,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 336px;
-    margin-top: 68px;}
+    margin: 80px;
+    margin-top: 68px;
+}
 .arrow {
     width: 249px;
     height: 54px;
@@ -377,4 +378,26 @@
      width: 196px;
      height: 73px;
  }
-
+ .border1 {
+     border: 1px solid rgba(229, 229, 229, 0.45);
+     width: 100%;
+     background: grey;
+ }
+ .end_bootom {
+     width: 100%;
+     background: #FFFFFF;
+     height: 50px;
+ }
+ .end {
+     display: flex;
+     column-gap: 175px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+.end p {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #A3ADBA;
+}

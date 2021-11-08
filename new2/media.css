@@ -3,7 +3,8 @@
     .border1 {
         width: 0;
         height: 0;
-            }
+    }
+
     .col-xxl-5 {
         display: flex;
         align-items: center;
@@ -27,30 +28,36 @@
         color: #020303;
         text-align: center;
     }
+
     .one {
         flex-direction: column-reverse;
     }
+
     .two {
         flex-direction: column-reverse;
     }
 
 
-.third-p {
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 32px;
-    color: #45494F;
-}
+    .third-p {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        color: #45494F;
+    }
+
     .col-xxl-4 img {
         width: 100%;
     }
+
     .foor {
         margin: 20px;
     }
+
     .four {
         width: 100%;
         margin-top: -490px;
     }
+
     .four-h {
         font-style: normal;
         font-weight: bold;
@@ -62,56 +69,108 @@
         transform: rotate(0.02deg);
         margin-top: 303px;
     }
+
     .four_img img {
         width: 100%;
 
     }
-.five_head {
-    flex-direction: column;
-    row-gap: 10px;
-    align-items: center;
-}
+
+    .five_head {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+
     .five_col41 img {
         width: 33px;
     }
+
     .five_col41 {
         width: 326px;
     }
+
     .five {
         margin-top: 183px;
     }
+
     .five_colon {
         flex-direction: column;
-            }
-.six_head {
-    width: 100%;
-    margin-left: 0;
-}
+    }
+
+    .six_head {
+        width: 100%;
+        margin-left: 0;
+    }
+
     .bilder1 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .img_last img {
         width: 100%;
         height: 479px;
         margin-left: 0;
     }
+
     .front {
         display: none;
     }
+
     .seven_group {
         flex-direction: column;
         row-gap: 15px;
         align-items: center;
     }
+
     .seven_group2 {
         flex-direction: column;
         row-gap: 15px;
         align-items: center;
     }
+
     .seven_group2 button {
         margin-left: 0;
     }
 
+    .finish {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 38px;
+    }
+
+    .finish_logo a img {
+        display: none;
+    }
+
+    .arrow {
+        width: 100%;
+    }
+
+    .arrow img {
+        width: 130px;
+    }
+
+    .finish2 {
+        width: 304px;
+        height: 320px;
+    }
+
+    .finish1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 43px;
+        letter-spacing: -0.4px;
+        color: #1652AC;
+    }
+
+    .border1 {
+        display: none;
+    }
+    .end {
+        flex-direction: column;
+        row-gap: 30px;
+    }
 }
